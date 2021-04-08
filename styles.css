@@ -1,0 +1,156 @@
+
+body {
+    background: url('./images/bg-pattern-bottom-desktop.svg') right top no-repeat, url('./images/bg-pattern-top-desktop.svg') left top no-repeat;
+    background-size:cover, auto;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Spartan', sans-serif;
+    padding: 5% 10% 5% 10%;
+}
+/*  UP  */
+.up{
+    display: flex;
+}
+.up-left{
+    width: 50%;
+}
+h1{
+    font-size: 3rem;
+    
+}
+p{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+h1,.goal{
+    margin: 1rem 8rem 0 0;
+    color: hsl(300, 43%, 22%);
+}
+
+.up-right{
+    padding-top: 2rem;
+}
+.rate{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 1rem;
+    width: 80%s;
+}
+.fivestar{
+    display: inline;
+}
+.star{
+    margin: 0 0.2rem 0 0.2rem;
+}
+span{
+    margin: 0 0 0 1rem;
+    color: hsl(300, 43%, 22%);
+}
+.iki{
+    margin-left: 4rem;
+}
+.uc{
+    margin-left: 8rem;
+}
+
+
+
+
+
+/* DOWN*/
+.down{
+    display: flex;
+}
+
+.card{
+    background-color: hsl(300, 43%, 22%);
+    padding: 3%;
+    width: 30%;
+    height: 100%;
+    border-radius: 0.5rem;
+    
+}
+.first{
+    margin: 5rem 0 0 0; 
+}
+.second{
+    margin: 6rem 2rem 0 2rem;
+}
+.third{
+    margin: 7rem 0 0 0; 
+}
+
+.card-up{
+    display: flex;
+}
+.profile{
+    border-radius: 75%;
+    height: 3rem;
+}
+.card-title{
+    display: block;
+    color: hsl(300, 24%, 96%);
+    margin: 0.1rem 0 0 1.5rem;
+}
+.card-major{
+    color: hsl(333, 80%, 67%);
+    margin: 0 0 0 1.5rem;
+}
+.card-text{
+    color:  hsl(300, 24%, 96%) ;
+    text-indent: rem;
+    margin-top: 2rem;
+}
+@media (max-width:415px){
+    body {
+        background: url('./images/bg-pattern-bottom-mobile.svg') right top repeat, url('./images/bg-pattern-top-mobile.svg') left top repeat;
+        padding: 15% 5% 5% 5%;
+        background-size:cover, auto;
+    }
+    /*  UP  */
+    .up{
+        display: block;
+    }
+    .up-left{
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+        
+    }
+    h1,.goal{
+        text-align: center;
+        margin: 1rem 0rem 0 0;
+    }
+    .fivestar{
+        display: flex;      
+        margin: auto auto 1rem auto; 
+        width: 35%;
+    }
+    .rate{
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 1rem 0rem 1rem 0rem;
+        width: 90%;
+        text-align: center;
+    }    
+    /* DOWN*/
+    .down{
+        display: block;
+    }
+    
+    .card{
+        padding: 7%;
+        width: 19rem;
+        
+    }
+    .second{
+        margin: 1.5rem 0rem 0 0rem;
+    }
+    .third{
+        margin: 1.5rem 0 0 0; 
+    }
+    
+    .card-up{
+        display: flex;
+    }
+}
